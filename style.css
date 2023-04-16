@@ -1,0 +1,38 @@
+body{
+    padding: 0px 60px 0px 60px;
+}
+#container-1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+    padding: 5px 20px 5px 20px;
+}
+.genre{
+    padding: 10px;
+}
+.genre select{
+    font-size: 20px;
+    width: 350px;
+    height: 35px;
+}
+#container-2{
+    display: flex;
+    justify-content: stretch;
+    padding: 0 20px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.rating{
+    padding: 10px;
+    width: 100%;
+}
+.rating select{
+    font-size: 20px;
+    height: 35px;
+    width: 100%;
+}
+th{
+    font-weight: bold;
+    padding: 30px;
+    border-bottom: 1px solid black;
+}
